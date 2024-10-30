@@ -1,1 +1,2 @@
-Hello, all virtual machines designed according to PostgreSQL HA/DR are included in the files and documented in the readme.txt file. You can also watch the video below and follow the steps provided."
+Hello, 
+   This project is a fully installed project. !!!  The installation has been done in the structure below, and the download links and commands to run all the virtual machines are available in the ReadMe.txt file included within each folder.
