@@ -25,7 +25,7 @@
 
 ![](https://github.com/ProxySeer/PostgresLab/blob/main/Project-Architecture/Animation.gif)
 
-[![Watch the video](https://i.sstatic.net/Vp2cE.png)](https://www.youtube.com/watch?v=kSxEQe21Q4I)
+[![Watch the video](https://hizliresim.com/3j0h2ht)](https://www.youtube.com/watch?v=kSxEQe21Q4I)
 
   
 
