@@ -1,6 +1,6 @@
 **Download Link**  <br />
 
-https://drive.google.com/drive/folders/18FYSgwlpqujG_1WbvL2djJmT5odnqVQz?usp=drive_link
+https://drive.google.com/drive/folders/1AfAs7GFCz0EKwqbgeo7Uwq8TRxoTkZrk?usp=drive_link
 
 **After the virtual machine starts, please follow the steps below.**
 
