@@ -3,7 +3,7 @@ https://drive.google.com/drive/folders/18FYSgwlpqujG_1WbvL2djJmT5odnqVQz?usp=dri
 
 sudo -i
 
-``` 
+```properties
 Start Consul service 
 ```
 
