@@ -1,4 +1,4 @@
-  **** This project is a fully installed project. !!!  The installation has been done in the structure below, and the download links and commands to run all the virtual machines are available in the ReadMe.txt file included within each folder. <br />
+  ** ** This project is a fully installed project. !!!  The installation has been done in the structure below, and the download links and commands to run all the virtual machines are available in the ReadMe.txt file included within each folder. <br />
    Please read the ReadMe.txt file in each folder after starting the virtual machines. <br />
    Order of starting the virtual machines. <br />
    
