@@ -1,4 +1,7 @@
-Hello,  <br />
+The architecture of installed project <br />
+
+    ![](https://github.com/ProxySeer/PostgresLab/blob/main/Project-Architecture/Animation.gif) <br />
+    
    **** This project is a fully installed project. !!!  The installation has been done in the structure below, and the download links and commands to run all the virtual machines are available in the ReadMe.txt file included within each folder.
    Please read the ReadMe.txt file in each folder after starting the virtual machines. <br />
    Order of starting the virtual machines. <br />
@@ -22,5 +25,5 @@ Hello,  <br />
    17- PgWatch - PgBadger <br />
    
 
-   ![](https://github.com/ProxySeer/PostgresLab/blob/main/Project-Architecture/Animation.gif)
+  
 
