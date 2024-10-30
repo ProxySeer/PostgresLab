@@ -26,7 +26,7 @@
  
 ![](https://github.com/ProxySeer/PostgresLab/blob/main/Project-Architecture/Animation.gif)
 
- **Servers setup guide** <br />
+ **All servers setup guides.** <br />
 
 [![Watch the video](https://i.hizliresim.com/3j0h2ht.PNG)](https://www.youtube.com/watch?v=kSxEQe21Q4I)
 
