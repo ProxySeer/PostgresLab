@@ -1,12 +1,14 @@
+
 **Download Link** 
 https://drive.google.com/drive/folders/18FYSgwlpqujG_1WbvL2djJmT5odnqVQz?usp=drive_link
 
-sudo -i
+**After the virtual machine starts, please follow the steps below.**
 
-<pre>
-    <code>
+change user to Root
+```ruby
+sudo -i
+```
 Start Consul service 
-    </code>
-</pre>
+
 
 systemctl start consul
