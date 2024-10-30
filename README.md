@@ -1,6 +1,6 @@
 Hello,  <br />
    **** This project is a fully installed project. !!!  The installation has been done in the structure below, and the download links and commands to run all the virtual machines are available in the ReadMe.txt file included within each folder.
-   Order of starting the virtual machines.Please read the ReadMe.txt file in each folder after starting the virtual machines.
+   Order of starting the virtual machines.Please read the ReadMe.txt file in each folder after starting the virtual machines. <br />
    1- Consul - 1 
    2- Consul - 2
    3- Consul - 3  
