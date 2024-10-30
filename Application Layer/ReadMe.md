@@ -10,5 +10,6 @@ sudo -i
 ```
 Start Consul service 
 
-
+```ruby
 systemctl start consul
+```
