@@ -9,7 +9,7 @@ https://drive.google.com/drive/folders/18FYSgwlpqujG_1WbvL2djJmT5odnqVQz?usp=dri
 ```ruby
 sudo -i
 ```
-**Start Consul service**
+**Start HaProxy Server**
 
 ```ruby
 systemctl start consul
