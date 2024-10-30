@@ -22,5 +22,5 @@ Hello,  <br />
    17- PgWatch - PgBadger <br />
    
 
-   ![](https://github.com/ProxySeer/PostgresLab/Project-Architecture/Animation.gif)
+   ![](ProxySeer/PostgresLab/Project-Architecture/Animation.gif)
 
