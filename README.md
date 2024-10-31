@@ -1,6 +1,8 @@
  
   **!!! The architecture below is set up on virtual servers and ready to run. !!!  All virtual machines have their own download links available in the README.md file within their respective folders, and all commands to be executed after starting the virtual machines are also included.** <br />
    **Please read the README.md file in each folder after starting the virtual machines.** <br />
+
+**The total size is around 400 GB. Each server has the same configuration, requiring a minimum of 17 GB RAM. Additionally, to ensure the structure works correctly, please watch the video(Starting up the servers) I’ve prepared before starting the servers; otherwise, they may not work. You need to follow the steps in the video in order. This setup will provide you with numerous opportunities for testing and learning.**
    
    **Order of starting the virtual machines.** <br />
    
@@ -27,7 +29,7 @@
  
 ![](https://github.com/ProxySeer/PostgresLab/blob/main/Project-Architecture/Architecture.gif)
 
- **Watch all server setup guides.** <br />
+ **Starting up the servers** <br />
 
 [![Watch the video](https://i.hizliresim.com/2o2po04.PNG)](https://www.youtube.com/watch?v=A_PDvBk6i7Y)
 
