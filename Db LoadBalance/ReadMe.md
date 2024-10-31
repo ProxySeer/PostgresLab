@@ -14,4 +14,4 @@ sudo -i
 systemctl start haproxy
 ```
 
-** !! To check that all ports are directed to the standby and production databases, visit the address 192.168.217.138 in your web browser. !! **
+**!! To check that all ports are directed to the standby and production databases, visit the address 192.168.217.138 in your web browser. !!**
