@@ -25,7 +25,7 @@
    
  **Project-Architecture** <br />
  
-![](https://github.com/ProxySeer/PostgresLab/blob/main/Project-Architecture/Animation.gif)
+![](https://github.com/ProxySeer/PostgresLab/blob/main/Project-Architecture/Architecture.gif)
 
  **Watch all server setup guides.** <br />
 
