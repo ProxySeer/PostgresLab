@@ -29,7 +29,7 @@
 
  **Watch all server setup guides.** <br />
 
-[![Watch the video](https://i.hizliresim.com/3j0h2ht.PNG)](https://www.youtube.com/watch?v=kSxEQe21Q4I)
+[![Watch the video](https://i.hizliresim.com/jzkm2ld.png)](https://www.youtube.com/watch?v=A_PDvBk6i7Y)
 
   
 
