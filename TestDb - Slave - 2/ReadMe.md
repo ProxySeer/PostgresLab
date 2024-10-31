@@ -4,7 +4,7 @@ https://drive.google.com/drive/folders/1x4ZS7PzsQzvNPVf7FyeC_NzqoLq0ntcD?usp=dri
 
 **After the virtual machine starts, please follow the steps below.**
 
-**change user to Root**
+**Switch to the root user**
 ```ruby
 sudo -i
 ```
