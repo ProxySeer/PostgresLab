@@ -4,7 +4,7 @@
    
    **Order of starting the virtual machines.** <br />
    
-   1- Consul - 1 <br />
+   **1- Consul - 1 <br />
    2- Consul - 2 <br />
    3- Consul - 3 <br />
    4- TestDb - Master <br />
@@ -20,7 +20,7 @@
    14- MongoDB - Primary <br />
    15- MongoDB - Slave <br /> 
    16- DelayedDb <br />
-   17- PgWatch - PgBadger <br />
+   17- PgWatch - PgBadger <br />**
 
    
  **Project-Architecture** <br />
