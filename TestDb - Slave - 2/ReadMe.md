@@ -19,8 +19,12 @@ systemctl start consul
 ```ruby
 systemctl start patroni
 ```
-**Start Both services Status**
+**Check the status of both services**
 ```ruby
 systemctl status consul
 systemctl status patroni
+```
+**Check the cluster status with Patroni**
+```ruby
+patronictl list
 ```
