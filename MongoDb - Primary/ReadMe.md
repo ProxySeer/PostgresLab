@@ -12,7 +12,7 @@ sudo -i
 mongosh
 ```
 
-**After connecting to MongoDB, run the following commands in the Mongo shell.**
+**After connecting to Mongo shell, run the following commands in the Mongo shell.**
 ```ruby
 rs.status()
 use testdb
