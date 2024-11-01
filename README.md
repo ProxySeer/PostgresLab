@@ -1,10 +1,25 @@
 
   **!!! The architecture below is set up on virtual servers and ready to run. !!!  All virtual machines have their own download links available in the README.md file within their respective folders, and all commands to be executed after starting the virtual machines are also included.** <br />
-   **Please read the README.md file in each folder after starting the virtual machines.** <br />
+  
+  **Please read the README.md file in each folder after starting the virtual machines.** <br />
 
-**The total size is around 400 GB. Each server has the same configuration, requiring a minimum of 17 GB RAM. Additionally, to ensure the structure works correctly, please watch the video(Starting up the servers) I’ve prepared before starting the servers; otherwise, they may not work. You need to follow the steps in the video in order. This setup will provide you with numerous opportunities for testing and learning --- > [ click to add a new node to the cluster](https://github.com/ProxySeer/PostgresLab/blob/main/How%20to%20add%20a%20new%20node/ReadMe.md).** 
+  **Entire structure below, designed to be suitable for HA/DR solutions, on virtual machines. While doing these installations, I used a total of 17 virtual machines. The setup includes the following technologies. All server installations were performed on Ubuntu.**
+    
+    **Multiple HAProxy <br />
+      Multiple PgBouncer <br />
+      PostgreSQL Cluster <br />
+      Consul Cluster <br />
+      Patroni <br />
+      PgBackRest <br />
+      PgWatch <br />
+      PgBadger <br />
+      Logical Replication <br />
+      Debezium - Zookeeper - Kafka Cluster <br />
+      MongoDB Cluster <br />**
 
 
+
+**The total size is around 400 GB. Each server has the same configuration, requiring a minimum of 17 GB RAM. Additionally, to ensure the structure works correctly, please watch the video(Starting up the servers) I’ve prepared before starting the servers; otherwise, they    may not work. You need to follow the steps in the video in order. This setup will provide you with numerous opportunities for testing and learning --- > [ click to add a new node to the cluster]   (https://github.com/ProxySeer/PostgresLab/blob/main/How%20to%20add%20a%20new%20node/ReadMe.md).** 
    
    **Order of starting the virtual machines.** <br />
    
