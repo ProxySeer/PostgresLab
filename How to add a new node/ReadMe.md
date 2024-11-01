@@ -15,65 +15,63 @@
    hostnamectl set-hostname hostname
 
 5. **Modify Consul Configuration**
-Edit the consul.json file:
-```bash
-vi /etc/consul.d/consul.json
-```
 
-Update the following:
-```bash
-{
-  "node_name": "hostname",
-  "bind_addr": "host-ip",
-  "client_addr": "127.0.0.1 host-ip"
-}
+   Edit the consul.json file:
+   ```bash
+   vi /etc/consul.d/consul.json
+   ```
 
-Save the file.
+   Update the following:
+   ```bash
+   {
+     "node_name": "hostname",
+     "bind_addr": "host-ip",
+     "client_addr": "127.0.0.1 host-ip"
+   }
+   ```
+
+   Save the file.
 
 6. **Update Patroni Configuration**
-Edit the patroni.yml file:
-```bash
-vi /etc/patroni/patroni.yml
+   Edit the patroni.yml file:
+   ```bash
+   vi /etc/patroni/patroni.yml
+   ```
+   Change the following parameters:
+   ```bash
+   url: https://hostname:8501
+   postgresql:
+     connect_address: "host-ip:5432"
+   restapi:
+     connect_address: host-ip:8009
+   ```
+   Save the changes.
 
 
-Change the following parameters:
-```bash
-url: https://hostname:8501
-postgresql:
-  connect_address: "host-ip:5432"
-restapi:
-  connect_address: host-ip:8009
+7. **Restart Services**
+   Restart both the Consul and Patroni services:
+   ```bash
+   systemctl restart consul
+   systemctl restart patroni
+   ```
 
+8. **Update pg_hba Configuration**
+   From the testdb master server, add the new server to the pg_hba section using patronictl:
+   ```bash
+   patronictl edit-config
+   ```
+   Add the following lines:
+   ```bash
+   host  replication     standby         host-ip/32     scram-sha-256
+   host  all             postgres        host-ip/32     scram-sha-256
+   ```
+   Save the changes.
 
-Save the changes.
-
-
-Restart Services
-Restart both the Consul and Patroni services:
-
-
-systemctl restart consul
-systemctl restart patroni
-
-
-Update pg_hba Configuration
-From the testdb master server, add the new server to the pg_hba section using patronictl:
-
-patronictl edit-config
-
-
-Add the following lines:
-
-host  replication     standby         host-ip/32     scram-sha-256
-host  all             postgres        host-ip/32     scram-sha-256
-
-
-Save the changes.
-
-Switchover All Servers
-Finally, perform a switchover for all servers using:
-
-patronictl switchover
+9. **Switchover All Servers**
+   Finally, perform a switchover for all servers using:
+   ```bash
+   patronictl switchover
+   ```
 
 
 
