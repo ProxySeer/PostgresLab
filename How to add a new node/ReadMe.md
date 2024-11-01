@@ -1,20 +1,22 @@
 # Server Setup Instructions
 
 1. **Copy the Server**  
-   Physically copy the `TESTDB1 SANAL` server to another location. After starting it, click on **I copied it**.
+   Physically copy the `TestDb-Slave-1` server to another location. After starting it, click on **I copied it**.
 
 2. **Connect to the Server**  
    Once the server is up, connect using the DHCP IP with `ifconfig`.
 
 3. **Update Netplan Configuration**  
-   Change the IP in the `addresses:` section of the `/etc/netplan/00-installer-config.yaml` file using `vi`.
-
-4. **Set the Hostname**  
+   Change the IP in the `addresses:` section.
+   ```bash
+   vi /etc/netplan/00-installer-config.yaml
+   ```
+5. **Set the Hostname**  
    Set the hostname with:
    ```bash
    hostnamectl set-hostname hostname
-
-5. **Modify Consul Configuration**
+   ```
+6. **Modify Consul Configuration**
 
    Edit the consul.json file:
    ```bash
@@ -32,7 +34,7 @@
 
    Save the file.
 
-6. **Update Patroni Configuration**
+7. **Update Patroni Configuration**
    Edit the patroni.yml file:
    ```bash
    vi /etc/patroni/patroni.yml
@@ -48,14 +50,14 @@
    Save the changes.
 
 
-7. **Restart Services**
+8. **Restart Services**
    Restart both the Consul and Patroni services:
    ```bash
    systemctl restart consul
    systemctl restart patroni
    ```
 
-8. **Update pg_hba Configuration**
+9. **Update pg_hba Configuration**
    From the testdb master server, add the new server to the pg_hba section using patronictl:
    ```bash
    patronictl edit-config
@@ -67,7 +69,7 @@
    ```
    Save the changes.
 
-9. **Switchover All Servers**
+10. **Switchover All Servers**
    Finally, perform a switchover for all servers using:
    ```bash
    patronictl switchover
