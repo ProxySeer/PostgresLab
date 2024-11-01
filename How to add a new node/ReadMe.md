@@ -18,6 +18,7 @@
 Edit the consul.json file:
 ```bash
 vi /etc/consul.d/consul.json
+```
 
 Update the following:
 ```bash
