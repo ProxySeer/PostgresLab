@@ -19,7 +19,7 @@
 
 
 
-**The total size is around 400 GB. Each server has the same configuration, requiring a minimum of 17 GB RAM. Additionally, to ensure the structure works correctly, please watch the video(Starting up the servers) I’ve prepared before starting the servers; otherwise, they    may not work. You need to follow the steps in the video in order. This setup will provide you with numerous opportunities for testing and learning --- > [ click to add a new node to the cluster]   (https://github.com/ProxySeer/PostgresLab/blob/main/How%20to%20add%20a%20new%20node/ReadMe.md).** 
+**The total size is around 400 GB. Each server has the same configuration, requiring a minimum of 17 GB RAM. Additionally, to ensure the structure works correctly, please watch the video(Starting up the servers) I’ve prepared before starting the servers; otherwise, they    may not work. You need to follow the steps in the video in order. This setup will provide you with numerous opportunities for testing and learning --- > [ click to add a new node to the cluster]https://github.com/ProxySeer/PostgresLab/blob/main/How%20to%20add%20a%20new%20node/ReadMe.md).** 
    
    **Order of starting the virtual machines.** <br />
    
