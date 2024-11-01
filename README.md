@@ -7,8 +7,8 @@ All virtual machines have their own download links available in the `README.md` 
 
 **The entire structure below is designed to be suitable for HA/DR solutions on virtual machines. While doing these installations, I used a total of 17 virtual machines. The setup includes the following technologies. All server installations were performed on Ubuntu:**
 
-- Multiple HAProxy  
-- Multiple PgBouncer  
+- HAProxy  
+- PgBouncer  
 - PostgreSQL Cluster  
 - Consul Cluster  
 - Patroni  
