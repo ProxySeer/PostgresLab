@@ -14,13 +14,13 @@
    ```bash
    hostnamectl set-hostname hostname
 
-Modify Consul Configuration
+5. **Modify Consul Configuration**
 Edit the consul.json file:
-
+```bash
 vi /etc/consul.d/consul.json
 
 Update the following:
-
+```bash
 {
   "node_name": "hostname",
   "bind_addr": "host-ip",
@@ -29,14 +29,14 @@ Update the following:
 
 Save the file.
 
-Update Patroni Configuration
+6. **Update Patroni Configuration**
 Edit the patroni.yml file:
-
+```bash
 vi /etc/patroni/patroni.yml
 
 
 Change the following parameters:
-
+```bash
 url: https://hostname:8501
 postgresql:
   connect_address: "host-ip:5432"
