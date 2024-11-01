@@ -1,4 +1,4 @@
-# Server Setup Instructions
+# Add New Node
 
 1. **Copy the Server**  
    Physically copy the `TestDb-Slave-1` server to another location. After starting it, click on **I copied it**.
