@@ -55,6 +55,3 @@ All virtual machines have their own download links available in the `README.md` 
 
 You can find me on [GitHub](https://github.com/ProxySeer/PostgresLab) and [LinkedIn](www.linkedin.com/in/erol-çimen-7b86552a0).
 
-Email: [youremail@example.com](mailto:youremail@example.com)
-
-[Click to reach me on LinkedIn](www.linkedin.com/in/erol-çimen-7b86552a0)
