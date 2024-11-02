@@ -1,14 +1,5 @@
 # Project Overview
 
-# Author
-
-**Erol Çimen**
-
-You can find me on [GitHub](https://github.com/yourusername) and [LinkedIn](https://www.linkedin.com/in/yourprofile).
-
-Email: [youremail@example.com](mailto:youremail@example.com)
-
-
 **!!! The architecture below is set up on virtual servers and ready to run. !!!**  
 All virtual machines have their own download links available in the `README.md` file within their respective folders, and all commands to be executed after starting the virtual machines are also included.
 
@@ -58,4 +49,12 @@ All virtual machines have their own download links available in the `README.md` 
 
 [![Watch the video](https://i.hizliresim.com/2o2po04.PNG)](https://www.youtube.com/watch?v=A_PDvBk6i7Y)
 
-[Click to reach me on LinkedIn](https://github.com/ProxySeer/PostgresLab/blob/main/How%20to%20add%20a%20new%20node/ReadMe.md)
+# Author
+
+**Erol Çimen**
+
+You can find me on [GitHub](https://github.com/ProxySeer/PostgresLab) and [LinkedIn](www.linkedin.com/in/erol-çimen-7b86552a0).
+
+Email: [youremail@example.com](mailto:youremail@example.com)
+
+[Click to reach me on LinkedIn](www.linkedin.com/in/erol-çimen-7b86552a0)
