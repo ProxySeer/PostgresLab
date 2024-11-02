@@ -1,5 +1,14 @@
 # Project Overview
 
+# Author
+
+**Erol Çimen**
+
+You can find me on [GitHub](https://github.com/yourusername) and [LinkedIn](https://www.linkedin.com/in/yourprofile).
+
+Email: [youremail@example.com](mailto:youremail@example.com)
+
+
 **!!! The architecture below is set up on virtual servers and ready to run. !!!**  
 All virtual machines have their own download links available in the `README.md` file within their respective folders, and all commands to be executed after starting the virtual machines are also included.
 
